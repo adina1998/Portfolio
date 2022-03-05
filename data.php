@@ -1,14 +1,14 @@
 <?php
-if(isset($_POST['Color'])){
-    $Color = $_POST['Color'];
-    switch('Color'){
-        case 'Red':
+if(isset($_POST["Color"])){
+    $Color = $_POST["Color"];
+    switch("Color"){
+        case "Red":
             echo 'Your car is a NISSAN 240SX<br/>';
             break;
-        case 'Blue':
+        case "Blue":
             echo 'Your car is a NISSAN r34<br/>';
             break;
-        case 'Green':
+        case "Green":
             echo 'Your car is a NISSAN GTI-R<br/>';
             break;
 
