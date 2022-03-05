@@ -1,13 +1,13 @@
 <?php
 switch ($Color) {
-        case 'Red':
-            echo 'Your car is a NISSAN 240SX<br/>';
+        case "Red":
+            echo 'Your car is a NISSAN 240SX';
             break;
-        case 'Blue':
-            echo 'Your car is a NISSAN r34<br/>';
+        case "Blue":
+            echo 'Your car is a NISSAN r34';
             break;
-        case 'Green':
-            echo 'Your car is a NISSAN GTI-R<br/>';
+        case "Green":
+            echo 'Your car is a NISSAN GTI-R';
             break;
 
     
