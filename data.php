@@ -1,6 +1,5 @@
 <?php
-if ($Color) {
-    switch('Color'){
+switch ($Color) {
         case 'Red':
             echo 'Your car is a NISSAN 240SX<br/>';
             break;
@@ -11,7 +10,7 @@ if ($Color) {
             echo 'Your car is a NISSAN GTI-R<br/>';
             break;
 
-    }
+    
 }
 
 ?>
