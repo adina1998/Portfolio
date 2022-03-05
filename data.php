@@ -1,5 +1,7 @@
 <?php
-include 'css/main.css';
+
+$css = file_get_contents('main.css');
+echo $css;
 
 $name = $_POST['name'];
 $year = $_POST['year'];
