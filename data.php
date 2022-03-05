@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $year = $_POST['year'];
 
 if (isset($_POST["name"]) && isset($_POST["year"])){
-        echo("Hello $name beacause of your birth year $year and color...");
+        echo("Hello $name beacause of your birth year $year and favorite color from the options provided...");
     } else{
         echo ("Try another color");
     }
