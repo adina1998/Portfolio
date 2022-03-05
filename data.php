@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST["name"]) && isset($_POST["year"])){
-    if($_POST["name"] || $_POST["year"]){
+    if($_POST[$name] || $_POST[$year]){
         echo("Hello $name beacause of your birth $year and color...");
     } else{
         echo ("Try another color");
