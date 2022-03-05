@@ -10,6 +10,9 @@ switch ($Color) {
         case "Green":
             echo 'Your car is a NISSAN GTI-R';
             break;
+        default: 
+            echo 'Try picking picking a color';
+            break;
 
     
 }
