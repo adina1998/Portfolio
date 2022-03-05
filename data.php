@@ -4,7 +4,7 @@ $year = $_POST['year'];
 
 if (isset($_POST["name"]) && isset($_POST["year"])){
     if(!empty($_POST["name"]) && !empty($_POST["year"])){
-        echo("Hello $name beacause of your birth year $year and favorite color from the options provided...");
+        echo("Hello $name beacause of your birth year ($year) and favorite color from the options provided...");
     } else {
         echo ('Please complete the Form');
     }
