@@ -8,7 +8,7 @@ if (isset($_POST["name"]) && isset($_POST["year"])){
     } else {
         echo ('fill in the form');
     }
-
+}
 $Color = $_POST['Color'];
 switch ($Color) {
         case "Red":
