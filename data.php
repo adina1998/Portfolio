@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 $year = $_POST['year'];
 
-if (isset($_POST["name"]) && isset($_POST["year"] && !empty($_POST['param'] !=''))){
+if (isset($_POST["name"]) && isset($_POST["year"])){
         echo("Hello $name beacause of your birth year $year and favorite color from the options provided...");
     } else {
         echo ('fill in the form');
