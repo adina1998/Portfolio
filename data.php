@@ -1,4 +1,6 @@
 <?php
+include 'css/main.css';
+
 $name = $_POST['name'];
 $year = $_POST['year'];
 
