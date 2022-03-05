@@ -1,7 +1,5 @@
 <?php
 
-$Color = "Color";
-
 switch ($Color) {
         case "Red":
             echo 'Your car is a NISSAN 240SX';
