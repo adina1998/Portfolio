@@ -4,10 +4,14 @@ if(isset($_POST['Color'])){
     switch('Color'){
         case 'Red':
             echo 'Your car is a NISSAN 240SX';
-        case 'Blue';
+            break;
+        case 'Blue':
             echo 'Your car is a NISSAN r34';
-        case 'Green';
+            break;
+        case 'Green':
             echo 'Your car is a NISSAN GTI-R';
+            break;
+
     }
 }
 
