@@ -1,9 +1,9 @@
 <?php
 
 $Color = [
-    'Color' => 'Red',
-    'Color' => 'Blue',
-    'Color' => 'Green'
+    "Color" => "Red",
+    "Color" => "Blue",
+    "Color" => "Green"
 ];
 
 switch ($Color) {
