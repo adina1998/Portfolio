@@ -6,8 +6,7 @@ if (isset($_POST["name"]) && isset($_POST["year"])){
     if(!empty($_POST["name"]) && !empty($_POST["year"])){
         echo("Hello $name beacause of your birth year $year and favorite color from the options provided...");
     } else {
-        echo ('Please Fill in the Form');
-        break;
+        echo ('Please complete the Form');
     }
 }
 $Color = $_POST['Color'];
@@ -21,10 +20,6 @@ switch ($Color) {
         case "Green":
             echo 'Your Nissan Model is a NISSAN GTI-R';
             break;
-        default: 
-            echo 'Try picking picking a color';
-            break;
-
     
 }
 
