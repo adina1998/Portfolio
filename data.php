@@ -11,13 +11,13 @@ if (isset($_POST["name"]) && isset($_POST["year"])){
 $Color = $_POST['Color'];
 switch ($Color) {
         case "Red":
-            echo 'Your car is a NISSAN 240SX';
+            echo 'Your Nissan Model is a NISSAN 240SX';
             break;
         case "Blue":
-            echo 'Your car is a NISSAN r34';
+            echo 'Your Nissan Model is a NISSAN R34';
             break;
         case "Green":
-            echo 'Your car is a NISSAN GTI-R';
+            echo 'Your Nissan Model is a NISSAN GTI-R';
             break;
         default: 
             echo 'Try picking picking a color';
