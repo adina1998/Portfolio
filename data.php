@@ -1,6 +1,9 @@
 <?php
 
-$Color = "Red","Blue","Green"
+$Color = [
+    'Color' => "Red",
+    'Color' => "Blue",
+    'Color' => "Green"
 
 switch ($Color) {
         case "Red":
