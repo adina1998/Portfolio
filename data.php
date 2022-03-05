@@ -1,6 +1,5 @@
 <?php
-if(isset($_POST['Color'])){
-    $Color = $_POST['Color'];
+if ($Color) {
     switch('Color'){
         case 'Red':
             echo 'Your car is a NISSAN 240SX<br/>';
