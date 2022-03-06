@@ -1,4 +1,4 @@
-<style> <?php include 'C:/xampp/htdocs/main.css';
+<?php 
 
 
 $name = $_POST['name'];
@@ -25,4 +25,4 @@ switch ($Color) {
     
 }
 
-?></style>
+?>
