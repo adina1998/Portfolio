@@ -1,4 +1,4 @@
-<style><?php include 'C:/xampp/htdocs/main.css';
+<style> <?php include 'C:/xampp/htdocs/main.css';
 
 
 $name = $_POST['name'];
