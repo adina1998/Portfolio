@@ -22,5 +22,4 @@ switch ($Color) {
             break;
     
 }
-
 ?>
